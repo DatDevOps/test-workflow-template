@@ -24,8 +24,11 @@ jobs:
       with:
         node-version: ${{ inputs.node-version }}
 
-    - name: Install dependencies
-      run: npm install
-
-    - name: Run tests
-      run: npm test
+    - name: Print 
+      run: echo "Hurray! I was able to call my reusable template"
+# Below throws an error because this is not a node repo with package.json or package-list.json    
+    # - name: Install dependencies
+    #   run: npm install
+      
+    # - name: Run tests
+    #   run: npm test
