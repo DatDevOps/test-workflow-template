@@ -9,7 +9,7 @@ on:
 
 jobs:
   call-template:
-    uses: ../.github/workflow-templates/ci-template.yml
+    uses: DatDevOps/test-workflow-template/.github/workflow-templates/non-organizational-template.yml
     with:
       node-version: '16'
     secrets:
