@@ -1,0 +1,16 @@
+name: CI
+
+on:
+  dispactch:  
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  call-template:
+    uses: ./.github/workflow-templates/ci-template.yml
+    with:
+      node-version: '16'
+    secrets:
+      NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
