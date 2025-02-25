@@ -4,6 +4,8 @@
 # For example, a file named octo-organization-ci.properties.json contains the metadata for the workflow file named octo-organization-ci.yml.
 # Both files must be placed in a public .github repository and in a directory named workflow-templates. 
 # You might have to create these if they don't already exist in your organization.
+
+# could not call/run template since my account had no organization
 name: Octo Organization CI
 
 on:
