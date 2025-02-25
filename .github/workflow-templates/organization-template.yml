@@ -5,7 +5,8 @@
 # Both files must be placed in a public .github repository and in a directory named workflow-templates. 
 # You might have to create these if they don't already exist in your organization.
 
-# could not call/run template since my account had no organization
+# could not call/run template since my account had no organization. 
+# See https://docs.github.com/en/actions/sharing-automations/reusing-workflows on hw to call a workflow template in an organization
 name: Octo Organization CI
 
 on:
